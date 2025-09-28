@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/duty_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/group_7" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/dic_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="세금 관련"
+                    android:textColor="#1B1B1B"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:id="@+id/blank1"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text=":P"
+                    android:textColor="#ffffff"
+                    android:textSize="32dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="52dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageView888"
+                    android:layout_width="23dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="0"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    app:srcCompat="@drawable/group_8__2_" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="10dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <ImageButton
+                    android:id="@+id/imageView999"
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/group_9__1_" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="634dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="243dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="당신이 찾으시는"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="175dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="세금정보"
+                        android:textColor="#014D6F"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="267dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="는?"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#024C6F"
+                        android:padding="2dp"
+                        android:text="정의 및 대상"
+                        android:textColor="#000000"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#024C6F"
+                        android:padding="2dp"
+                        android:text="지원내용"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/btn3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#024C6F"
+                        android:padding="2dp"
+                        android:text="신청방법"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/btn4"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#024C6F"
+                        android:padding="2dp"
+                        android:text="유의사항"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:text="근로장려금"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="360dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="25dp"
+                    android:background="@drawable/border">
+
+                    <ScrollView
+                        android:id="@+id/detailscroll"
+                        android:layout_width="340dp"
+                        android:layout_height="447dp"
+                        android:layout_marginTop="17dp"
+                        android:elevation="8dp">
+
+                        <!-- 자식은 반드시 하나, 예: LinearLayout -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/ttt1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="정의"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <View
+                                    android:id="@+id/view9"
+                                    android:layout_width="270dp"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#024C6F" />
+
+                                <FrameLayout
+                                    android:layout_width="300dp"
+                                    android:layout_height="121dp"
+                                    android:layout_marginLeft="21dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#F3F3F3">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="15dp"
+                                            android:layout_marginBottom="15dp"
+                                            android:text="근로장려금이란?"
+                                            android:textColor="#024C6F" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 일정 소득 이하의 저소득 가구에 대해 일을 장려하고 \n  실질적 소득을 지원하는 현금 지급 제도"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="지원 대상"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <View
+
+                                    android:layout_width="270dp"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#024C6F" />
+
+                                <FrameLayout
+                                    android:layout_width="300dp"
+                                    android:layout_height="161dp"
+                                    android:layout_marginLeft="21dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#F3F3F3">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="15dp"
+                                            android:layout_marginBottom="15dp"
+                                            android:text="지원 대상"
+                                            android:textColor="#024C6F" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 가구요건: 단독, 홑벌이, 맞벌이"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 소득요건: 단독(2,200만 원), 홑벌이(3,200만 원), \n  맞벌이(3,800만 원)"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 재산요건: 가구 재산 2억 원 미만\n  (1.4억 이상 시 50% 감액)"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                                <TextView
+
+                                    android:id="@+id/ttt2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="지원 내용"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <View
+                                    android:layout_width="270dp"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#024C6F" />
+
+                                <FrameLayout
+                                    android:layout_width="300dp"
+                                    android:layout_height="131dp"
+                                    android:layout_marginLeft="21dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#F3F3F3">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="15dp"
+                                            android:layout_marginBottom="15dp"
+                                            android:text="지원 내용"
+                                            android:textColor="#024C6F" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 현금 지급(가구 형태 및 소득 수준에 따라 차등 지급)"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/ttt3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="신청 방법"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <View
+                                    android:layout_width="270dp"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#024C6F" />
+
+                                <FrameLayout
+                                    android:layout_width="300dp"
+                                    android:layout_height="231dp"
+                                    android:layout_marginLeft="21dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#F3F3F3">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="15dp"
+                                            android:layout_marginBottom="15dp"
+                                            android:text="신청 방법"
+                                            android:textColor="#024C6F" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="① 온라인 신청: 홈택스-근로·자녀장려금 신청 \n     또는 손택스 앱"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="② 필요서류: 신청 시 자동으로 불러오기 되므로 \n     별도 제출 서류 없음(단, 안내문을 받지 못한 경우 \n     주민등록등본 등 추가 서류 필요할 수 있음)"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="③ 신청 기간: 정기신청-매년 5월 1일~31일 \n    / 기한후신청-6월 1일~11월 30일\n    (지급액의 10% 감액)"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="④ 신청 장소: 온라인 - 국세청 홈택스 또는 손택스 앱 \n   / 오프라인-세무서 방문 신청 가능"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                                <TextView
+                                    android:id="@+id/ttt4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="유의 사항"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold" />
+
+                                <View
+                                    android:layout_width="270dp"
+                                    android:layout_height="1dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#024C6F" />
+
+                                <FrameLayout
+                                    android:layout_width="300dp"
+                                    android:layout_height="141dp"
+                                    android:layout_marginLeft="21dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#F3F3F3">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="15dp"
+                                            android:layout_marginBottom="15dp"
+                                            android:text="유의 사항"
+                                            android:textColor="#024C6F" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 정기 신청기간 초과 시 90%만 지급"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 부정 수급 시 환수 및 향후 제한"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:text="• 매년 재신청 필요"
+                                            android:textColor="#282828"
+                                            android:textSize="12dp" />
+
+                                    </LinearLayout>
+
+                                </FrameLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </ScrollView>
+                </FrameLayout>
+
+
+                <!--  상단 아이콘 모음 영역  -->
+                <!--  하단 주요 버튼 및 이미지  -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 상단 아이콘 모음 영역 -->
+
+        <!-- 하단 주요 버튼 및 이미지 -->
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_active" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_1"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

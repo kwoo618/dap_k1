@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moneymiri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiriActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F3F3F3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/group_7" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/da"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="재테크"
+                    android:textColor="#1B1B1B"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="관련"
+                    android:textColor="#024C6F"
+                    android:textSize="30dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="52dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageView888"
+                    android:layout_width="23dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="0"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    app:srcCompat="@drawable/group_8__2_" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="10dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <ImageButton
+                    android:id="@+id/imageView999"
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/group_9__1_" />
+
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dic_back"
+                android:elevation="8dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/scrollablePart"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="당신이 찾으시는 "
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="재테크정보"
+                                    android:textColor="#024B6E"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="는?"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="연금저축계좌(펀드)"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 노후 대비 장기 저축, 세액공제 가능
+                                        \n지원 내용: 연 최대 600만 원 납입 가능, 세액공제는 13.2~16.5%, 과세이연 혜택
+                                        \n신청 조건: 누구나 가입 가능(미성년자 포함)"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="IRP (개인형 퇴직연금)"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 퇴직금+자기 납입금 운용, 세액공제 가능
+                                        \n지원 내용: 연 최대 1,800만 원 납입, 세액공제는 연금저축 포함 연 900만 원 한도, 공제율 13.2~16.5%
+                                        \n신청 조건: 근로자·자영업자 등 소득 있는 사람만 가능 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="ISA (중개형)"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 다양한 금융상품을 한 계좌에 담아 절세 가능
+                                        \n지원 내용: 수익 200만 원까지 비과세, 초과분은 9.9% 분리과세, 연 2,000만 원, 최대 5년간 1억 원 납입 가능
+                                        \n신청 조건: 만 19세 이상 소득자, 의무보유 3년 이상 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="청년 도약 계좌"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 근로 청년의 자산 형성 지원, 정부 매칭 적금
+                                        \n지원 내용: 월 최대 70만 원 납입 가능, 정부 매칭 최대 2배
+                                        \n신청 조건: 만 19~34세 + 총급여 7,500만 원 이하"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="청년 내일 저축계좌"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 저소득 근로 청년의 저축에 정부가 정액 매칭 지원
+                                        \n지원 내용: 월 10만 원 저축 시 정부가 월 10~30만 원 지원, 3년 후 최대 약 1,440만 원 수령 가능
+                                        \n신청 조건: 근로소득, 기준중위소득 100% 이하 가구 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 상단 아이콘 모음 영역 -->
+
+            <!-- 하단 주요 버튼 및 이미지 -->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_active" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_1"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

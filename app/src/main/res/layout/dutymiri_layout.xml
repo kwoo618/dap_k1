@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dutymiri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F3F3F3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/group_7" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/da"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="세금"
+                    android:textColor="#1B1B1B"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="관련"
+                    android:textColor="#024C6F"
+                    android:textSize="30dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="52dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageView888"
+                    android:layout_width="23dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="0"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    app:srcCompat="@drawable/group_8__2_" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="10dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <ImageButton
+                    android:id="@+id/imageView999"
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/group_9__1_" />
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dic_back"
+                android:elevation="8dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/scrollablePart"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="당신이 찾으시는 "
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="세금정보"
+                                    android:textColor="#024B6E"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="는?"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="연말정산"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 1년간의 세금을 정산해 환급 및 추가납부를 결정하는 절차
+                                        \n지원 내용: 인적·특별공제, 연금·보험료·기부금·의료비 등 공제
+                                        \n신청 조건: 근로소득자 전 연령 "
+
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:id="@+id/duty2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="근로장려금"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 저소득 근로자에게 현금으로 지원하는 소득 장려 제도
+                                        \n지원 내용: 가구 형태·소득에 따라 연 최대 수백만 원 현금 지급
+                                        \n신청 조건: 성인 (가구 소득 요건 충족 시)"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="중소기업 취업자 소득세 감면"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 중소기업에 취업한 청년 등의 소득세를 감면해주는 제도
+                                        \n지원 내용: 최대 연 150만 원, 5년간 총 750만 원 소득세 감면
+                                        \n신청 조건: 만 15~34세(청년), 장애인·경력단절여성 등"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="종합소득세"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 여러 소득을 합산해 매년 5월 자진 신고·납부하는 세금
+                                        \n지원 내용: 분납 가능, 필요경비 인정으로 절세 가능
+                                        \n신청 조건: 소득 있는 성인"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="2030 청년 창업 세금 감면"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 청년 창업자 소득세·법인세를 최대 100% 감면하는 제도
+                                        \n지원 내용: 수도권 외 5년간 전액 감면, 수도권 내는 50% 감면
+                                        \n신청 조건: 만 15~34세 (군복무 차감 가능)"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 상단 아이콘 모음 영역 -->
+
+            <!-- 하단 주요 버튼 및 이미지 -->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="match_parent"
+            android:layout_height="3dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_active" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_1"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

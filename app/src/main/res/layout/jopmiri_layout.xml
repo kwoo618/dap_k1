@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jopmiri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiriActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F3F3F3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/group_7" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/da"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="취업"
+                    android:textColor="#1B1B1B"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="관련"
+                    android:textColor="#024C6F"
+                    android:textSize="30dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="52dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageView888"
+                    android:layout_width="19dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="0"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/group_8__2_" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="10dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <ImageButton
+                    android:id="@+id/imageView999"
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/group_9__1_" />
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dic_back"
+                android:elevation="8dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/scrollablePart"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="당신이 찾으시는 "
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="취업정보"
+                                    android:textColor="#024B6E"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="는?"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="국민취업지원제도"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 취업이 어려운 사람에게 수당과 취업지원서비스 제공
+                                        \n지원 내용: I유형, II유형에 나눠 맞춤형 지원
+                                        \n신청 조건: 미취업자 + 소득 요건 충족 (중위소득 60% 이하 등)"
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="중소기업 재직자 우대 저축공제"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 중소기업 근로자의 장기근속과 자산형성을 위한 적립 제도
+                                        \n지원 내용: 5년간 적립 시 최대 1,027만 원 + 복지 혜택
+                                        \n신청 조건: 중소기업 재직자 + 기업과 사전 협의 필요 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="청년연계형 내일채움공제"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 청년의 중소기업 장기근속 유도 및 자산형성 지원
+                                        \n지원 내용: 2~3년 근속 시 최대 3,000만 원 지급
+                                        \n신청 조건: 중소기업 재직 청년 + 기업 참여 여부 확인 필수 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="미래내일 일경험 지원사업(인턴형)"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 청년에게 직무 경험을 제공하는 인턴 프로그램
+                                        \n지원 내용: 인턴 수당 + 기업 지원금 및 멘토수당 제공
+                                        \n신청 조건: 만 15~34세 미취업 청년 + 사전 직무교육 이수 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="청년구직활동지원금"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 취업 준비 청년에게 월 최대 50만 원 지원
+                                        \n지원 내용: 최대 6개월간 총 300만 원 + 교육, 자격증 비용 등
+                                        \n신청 조건: 만 18~34세 미취업 청년 + 중위소득 120% 이하 + 고용보험 미가입 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="청년농업"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 청년의 농업 진출과 정착을 위한 종합 지원 제도
+                                        \n지원 내용: 소득지원: 월 최대 110만 원 × 3년(자금·농지·시설·교육·주거 지원 포함)
+                                        \n신청 조건: 만 18~39세 + 농업계획 및 교육 이수자 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 상단 아이콘 모음 영역 -->
+
+            <!-- 하단 주요 버튼 및 이미지 -->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_active" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_1"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

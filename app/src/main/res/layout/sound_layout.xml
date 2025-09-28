@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiriActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="&lt; 설정"
+            android:textColor="#9E9E9E"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="40dp"
+                android:text="손쉬운 사용"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:layout_marginLeft="40dp"
+                android:text="손쉬운 사용은 시각, 청각, 신체 제약이 있는 사용자를 위한 옵션입니다."
+                android:textSize="10dp"
+                android:textColor="#9C9C9C"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시각지원"
+                android:textSize="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#9C9C9C"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="85dp"
+                android:backgroundTint="#EBEBEB"
+                android:paddingLeft="50dp"
+                android:text="디스플레이 및 텍스트 크기"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="126dp"
+                android:layout_marginLeft="40dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="14dp"
+                android:backgroundTint="#EBEBEB"
+                android:text="확대 및 축소" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="167dp"
+                android:layout_marginLeft="40dp"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:backgroundTint="#EBEBEB"
+                android:textSize="14dp"
+                android:text="이지 모드" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949494"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="340dp"
+                android:text="&gt;" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949494"
+                android:layout_marginTop="141dp"
+                android:layout_marginLeft="340dp"
+                android:text="&gt;" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949494"
+                android:layout_marginTop="182dp"
+                android:layout_marginLeft="340dp"
+                android:text="&gt;" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="청각 지원"
+                android:textSize="10dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#9C9C9C" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="245dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="#EBEBEB"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textSize="14dp"
+                android:text="오디오 제어" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#949494"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="340dp"
+                android:text="&gt;" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="139dp"
+                app:srcCompat="@drawable/text" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="19dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="259dp"
+                app:srcCompat="@drawable/sound" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="20dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="97dp"
+                app:srcCompat="@drawable/text" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="20dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="179dp"
+                app:srcCompat="@drawable/star" />
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_active"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

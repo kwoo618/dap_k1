@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/armymiri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiriActivity"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#F3F3F3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="12dp" />
+
+            <ImageView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/group_7" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <TextView
+                    android:id="@+id/da"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="군대"
+                    android:textColor="#1B1B1B"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_black"
+                    android:letterSpacing="0.03"
+                    android:text="관련"
+                    android:textColor="#024C6F"
+                    android:textSize="30dp" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="52dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageView888"
+                    android:layout_width="23dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="12dp"
+                    android:scaleType="fitCenter"
+                    android:layout_weight="0"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    app:srcCompat="@drawable/group_8__2_" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="10dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+
+                <ImageButton
+                    android:id="@+id/imageView999"
+                    android:layout_width="23dp"
+                    android:layout_height="22dp"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="#00FFFFFF"
+                    android:padding="0dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="0"
+                    app:srcCompat="@drawable/group_9__1_" />
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="30dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dic_back"
+                android:elevation="8dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/scrollablePart"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="10dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="당신이 찾으시는 "
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="군대정보"
+                                    android:textColor="#024B6E"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="는?"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="제대군인 직업교육비 지원"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 전역한 제대군인 재취업을 위한 직업훈련비 지원
+                                        \n지원 내용: 수강료 최대 150만 원, 80% 국비 지원
+                                        \n신청 조건: 전역 3년 이내 + 중·장기 복무자 + 미취업/창업 상태 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="병역진로설계 프로그램"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 입대 전 또는 복무 중 병역의무자의 진로·직업 설계 지원
+                                        \n지원 내용: 진로검사, 1:1 상담, 군 생활 중 자기계발 정보 제공
+                                        \n신청 조건: 입대 예정자 또는 복무 중 병역의무자 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="민간병원 진료비 지원"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 병사가 민간병원 이용 시 본인부담금 일부를 국가가 지원
+                                        \n지원 내용: 복무 중 최대 100만 원, 본인부담금 80% 지원
+                                        \n신청 조건: 현역병, 상근예비역, 간부후보생 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="히어로즈 카드"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 복무 중 병사에게 다양한 할인·혜택이 제공되는 체크카드
+                                        \n지원 내용: 병사 월급 수령 + 영화·외식·쇼핑 등 할인
+                                        \n신청 조건: 복무 중인 병사 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="15dp">
+
+                                <ImageButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="설명"
+                                    android:src="@drawable/miri_btn" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="4dp"
+                                        android:text="장병내일적금"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginRight="10dp"
+                                        android:text="정의: 병사가 복무 기간 동안 목돈을 마련할 수 있는 적금 제도
+                                        \n지원 내용: 본인 적립 + 정부지원 + 이자 포함 최대 약 1,400만 원
+                                        \n신청 조건: 현역병 등 의무복무 병사 + 복무 6개월 이내 가입 "
+                                        android:textSize="12dp" />
+                                </LinearLayout>
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 상단 아이콘 모음 영역 -->
+
+            <!-- 하단 주요 버튼 및 이미지 -->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_margin="0dp"
+            app:srcCompat="@drawable/home_active" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="17dp"
+            android:layout_height="65dp"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/setting_1"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
